@@ -1,5 +1,5 @@
 {
-    "train_log_every": 1,
+    "train_log_every": 10,
     "test_log_every": 1,
     "train_params_file": "iql_train_params",
     "train_output_file": "iql_train_output",

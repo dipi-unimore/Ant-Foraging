@@ -124,15 +124,15 @@ if __name__ == "__main__":
     parser.add_argument(
         "--qtable_path",
         type=str,
-        default="",
+        default="runs/weights/iql_train_weights_05_05_2026__22_50_00.npy",
         required=False
     )
     
     parser.add_argument("--random_seed", type=int, default=42, required=False)
-    parser.add_argument("--train", type=bool, default=False, required=False)
+    parser.add_argument("--train", type=bool, default=True, required=False)
     parser.add_argument("--render", type=bool, default=False, required=False)
-    parser.add_argument("--fixed_foods", type=bool, default=False, required=False)
-    parser.add_argument("--print_metrics", type=int, default=30, required=False)
+    parser.add_argument("--fixed_foods", type=bool, default=True, required=False)
+    parser.add_argument("--print_metrics", type=int, default=10, required=False)
     
     args = parser.parse_args()
     if check_args(args):

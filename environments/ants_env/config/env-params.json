@@ -1,5 +1,5 @@
 {
-    "learners": 40,
+    "learners": 50,
     "actions": [
         "random-walk",
         "move-toward-chemical-0",
@@ -25,7 +25,7 @@
     "ind_rew_scale_2": 3.5,
     "glob_rew_scale_1": 10,
     "glob_rew_scale_2": 2.0,
-    "max_episode_ticks": 500,
+    "max_episode_ticks": 250,
     "W": 31,
     "H": 31,
     "PATCH_SIZE": 20,

@@ -7,7 +7,7 @@ from typing import Tuple, Dict
 from scipy.ndimage import gaussian_filter
 from gymnasium.spaces import Discrete, Box
 from pettingzoo import AECEnv
-from pettingzoo.utils import agent_selector
+from pettingzoo.utils.agent_selector import agent_selector
 from pettingzoo.utils.env import ObsType
 
 

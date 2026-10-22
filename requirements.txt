@@ -1,0 +1,10 @@
+numpy
+scipy
+gymnasium
+pettingzoo
+pygame
+pandas
+matplotlib
+tqdm
+torch
+
